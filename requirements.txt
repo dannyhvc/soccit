@@ -1,0 +1,9 @@
+colorama
+flask
+scikitlearn
+scipy
+numpy
+matplotlib
+tensorflow
+keras
+theano

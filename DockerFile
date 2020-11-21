@@ -1,0 +1,9 @@
+FROM python:3
+
+WORKDIR /SOCCIT
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . /WORKDIR
+
+CMD [ "python", "./__main__.py" ]
